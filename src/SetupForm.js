@@ -32,7 +32,7 @@ const SetupForm = () => {
               value={quiz.category}
               onChange={handleChange}
             >
-              <option value="sports">Sports</option>
+              <option value="comics">Comics</option>
               <option value="history">History</option>
               <option value="politics">Politics</option>
             </select>
@@ -49,7 +49,7 @@ const SetupForm = () => {
             >
               <option value="easy">Easy</option>
               <option value="medium">Medium</option>
-              <option value="Hard">Hard</option>
+              <option value="hard">Hard</option>
             </select>
           </div>
           {error && (
